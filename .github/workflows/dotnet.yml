@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: src/Task3
+      working-directory: /home/runner/work/Task3/Task3
     - name: Build
       run: dotnet build --no-restore
     - name: Test
